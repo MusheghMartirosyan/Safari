@@ -1,0 +1,131 @@
+.carousel-img1{
+    background: url(../../images/carousel-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-img2{
+    background: url(../../images/carousel-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-img3{
+    background: url(../../images/carousel-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-caption{
+    max-width: 900px;
+    /* position: absolute;
+    top: 100px;
+    left: 0; */
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.carousel-caption h3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    width: 560px;
+    height: 190px;
+    text-align: left;
+}
+
+.carousel-caption p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 136%;
+    width: 377px;
+    height: 109px;
+    text-align: left;
+}
+
+.carousel-caption button{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 136%;
+    display: inline-flex;
+    padding: 9px 31px 7px 32px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    top: 291px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+}
+
+.carousel-caption ul{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 136%;
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    width: 260px;
+}
+
+.carousel-caption ul li::before {
+    content: "\2713";
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+
+  
+@media screen and (max-width: 768px) {
+    .carousel-caption{
+        padding: 0;
+    }
+    .carousel-caption h3{
+        width: 280px;
+        height: 190px;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%; /* 39.6px */
+    }
+    .carousel-caption p{
+        width: 280px;
+        height: 109px;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 136%; /* 19.04px */
+    }
+    .carousel-caption button{
+        position: static;
+    }
+    .carousel-caption ul{
+        font-size: 12px;
+    }
+
+}
