@@ -103,8 +103,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 20px;
-        margin-top: 450px;
+        margin-top: 190px;
         height: auto;
+        column-gap: 0;
     }
     .footer a{
         margin: 0;
