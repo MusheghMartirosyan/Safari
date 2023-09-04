@@ -103,6 +103,7 @@
 
 @media screen and (max-width: 768px) {
     .calculator-image{
+        display: block;
         position: static;
         width: 100%;
         display: block;
