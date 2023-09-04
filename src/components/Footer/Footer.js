@@ -1,3 +1,4 @@
+import { Link, Outlet } from "react-router-dom"
 import "./Footer.css"
 
 const Footer = () => {
@@ -5,7 +6,7 @@ const Footer = () => {
         <>
         <footer>
             <div className="footer">
-                <a href="#home">SAFARI</a>
+                <h3 href="#home">SAFARI</h3>
                 <div>
                     <h4>Top destinations</h4>
                     <ul>
@@ -25,7 +26,7 @@ const Footer = () => {
                     <ul>
                         <li>About Tanzania Safari</li>
                         <li>Contact</li>
-                        <li>Privacy policy</li>
+                        <li><Link to="/faq">Privacy policy</Link></li>
                         <li>Terms and conditions</li>
                         <li>Tanzania traveller reviews</li>
                     </ul>
@@ -54,6 +55,7 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
+        <Outlet />
         </>
     )
 }

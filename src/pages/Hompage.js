@@ -6,10 +6,10 @@ import NavBar from "../components/NavBar/NavBar"
 const HomePage = () => {
     return(
         <>
-            <NavBar />
+            {/* <NavBar /> */}
             <CarouselComponent/> 
             <Calculator />
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }
