@@ -104,8 +104,10 @@
 @media screen and (max-width: 768px) {
     .calculator-image{
         position: static;
-        width: 280px;
-        height: 303px;
+        width: 100%;
+        display: block;
+        padding-right: 20px;
+        padding-left: 20px;
         margin: 0 auto;
     }
 
@@ -124,19 +126,22 @@
     .calculator-content{
         width: 100%;
         padding: 20px;
+        padding-bottom: 0;
         align-items: center;
     }
 
     .calculator-content h3{
         margin: 0;
         font-size: 36px;
-        width: 280px;
         height: 128px;
+        width: 100%;
+        padding-right: 40px;
     }
 
     .calculator-content p{
         position: static;
         font-size: 12px;
+        width: 100%;
     }
 
     .calculator-header div span:nth-child(1){
