@@ -24,16 +24,12 @@
 
 .carousel-caption{
     max-width: 900px;
-    /* position: absolute;
-    top: 100px;
-    left: 0; */
     padding: 20px;
     margin-bottom: 100px;
 }
 
 .carousel-caption h3{
     color: #FFF;
-    font-family: Inter;
     font-size: 58px;
     font-style: normal;
     font-weight: 700;
@@ -45,7 +41,6 @@
 
 .carousel-caption p{
     color: #FFF;
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -58,7 +53,6 @@
 .carousel-caption button{
     color: #000;
     text-align: center;
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -78,7 +72,6 @@
 .carousel-caption ul{
     color: #FFF;
     text-align: center;
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -88,18 +81,34 @@
     padding: 0;
     width: 260px;
 }
-
-.carousel-caption ul li::before {
-    content: "\2713";
-    display: inline-block;
-    width: 20px;
-    text-align: center;
-    margin-right: 10px;
-    font-size: 16px;
-  }
-
   
 @media screen and (max-width: 768px) {
+    div.carousel-indicators{
+        display: none;
+    }
+    span.carousel-control-next-icon{
+        position: relative;
+        top: 250px;
+        right: 100px;
+    }
+    span.carousel-control-prev-icon{
+        position: relative;
+        top: 250px;
+        left: 100px;
+    }
+
+    .carousel-img1{
+        background-position: center center;
+    }
+    
+    .carousel-img2{
+        background-position: center center;
+
+    }
+    
+    .carousel-img3{
+        background-position: center center;
+    }
     .carousel-caption{
         padding: 0;
     }
@@ -110,7 +119,8 @@
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 110%; /* 39.6px */
+        line-height: 110%;
+        margin-bottom: 0;
     }
     .carousel-caption p{
         width: 280px;
@@ -119,13 +129,19 @@
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
-        line-height: 136%; /* 19.04px */
+        line-height: 136%;
+        margin-bottom: 0;
     }
     .carousel-caption button{
         position: static;
+        margin-bottom: 27px;
     }
     .carousel-caption ul{
-        font-size: 12px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8px;
     }
 
 }

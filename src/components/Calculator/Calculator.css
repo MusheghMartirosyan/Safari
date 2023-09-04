@@ -17,7 +17,7 @@
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
-    line-height: 106%; /* 53px */
+    line-height: 106%;
     width: 478px;
     height: 190px;
     flex-shrink: 0;
@@ -25,9 +25,19 @@
     margin-right: 100px;
 }
 
+.calculator-content p{
+    position: relative;
+    top: -25px;
+    color: #737373;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 136%;
+}
 
 .calculator-header{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-bottom: 47px;
 }
 
@@ -35,26 +45,114 @@
     margin-right: 56px;
 }
 
-.calculator input{
+.calculator-header div span:nth-child(1){
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 106%;
+}
+
+.calculator-header div span:nth-child(2){
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 136%;
+}
+
+.calculator-header div:nth-child(3){
+    display: none;
+}
+
+.calculator-header div:nth-child(4){
+    display: none;
+}
+
+.calculator input, .calculator select{
     width: 157px;
     height: 49px;
     flex-shrink: 0;
     stroke-width: 1px;
     stroke: #000;
     margin-right: 14px;
+    border: 1px solid black;
+    border-radius: 0;
+    padding-left: 15px;
 }
 
-.calculator-image {
+.calculator select{
+    -webkit-appearance: none; /* Remove default styling for macOS */
+}
+
+.calculator-image{
+    display: block;
     position: absolute;
     top: 620px;
     left: 250px;
     width: 579px;
     height: 627px;
-    flex-shrink: 0;
     z-index: 111;
 }
 
 .calculator > input{
     margin-top: 23px;
     margin-bottom: 23px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .calculator-image{
+        position: static;
+        width: 280px;
+        height: 303px;
+        margin: 0 auto;
+    }
+
+    .calculator{
+        display: none;
+    }
+
+    .calculator-header div:nth-child(3){
+        display: block;
+    }
+
+    .calculator-header div:nth-child(4){
+        display: block;
+    }
+
+    .calculator-content{
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .calculator-content h3{
+        margin: 0;
+        font-size: 36px;
+        width: 280px;
+        height: 128px;
+    }
+
+    .calculator-content p{
+        position: static;
+        font-size: 12px;
+    }
+
+    .calculator-header div span:nth-child(1){
+        color: #000;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 106%;
+    }
+
+    .calculator-header div span:nth-child(2){
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 136%;
+        width: 132px;
+    }
 }

@@ -1,6 +1,4 @@
 import "./Footer.css"
-import { BsInstagram } from 'react-icons/bs';
-import { FiFacebook, FiTwitter } from 'react-icons/fi';
 
 const Footer = () => {
     return(
@@ -30,8 +28,8 @@ const Footer = () => {
                     <li>Terms and conditions</li>
                     <li>Tanzania traveller reviews</li>
                 </ul>
-                <button>Book a tour</button>
             </div>
+            <button>Book a tour</button>
         </div>
         <div className="socials">
             <div>

@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Carousel.css"
+import { BsCheckCircle } from "react-icons/bs";
 
 function CarouselComponent() {
   return (
@@ -12,9 +13,9 @@ function CarouselComponent() {
           <p>A Tanzania vacation is the ultimate once-in-a-lifetime holiday! Tanzania is a top safari destination and has so much to offer.</p>
           <button>Book a tour</button>
           <ul>
-            <li>100% specialized in Tanzania</li>
-            <li>World class safari guides</li>
-            <li>Private safaris</li>
+            <li><BsCheckCircle /> 100% specialized in Tanzania</li>
+            <li><BsCheckCircle /> World class safari guides</li>
+            <li><BsCheckCircle /> Private safaris</li>
           </ul>
         </Carousel.Caption>
       </Carousel.Item>
@@ -25,9 +26,9 @@ function CarouselComponent() {
           <p>A Tanzania vacation is the ultimate once-in-a-lifetime holiday! Tanzania is a top safari destination and has so much to offer.</p>
           <button>Book a tour</button>
           <ul>
-            <li>100% specialized in Tanzania</li>
-            <li>World class safari guides</li>
-            <li>Private safaris</li>
+            <li><BsCheckCircle /> 100% specialized in Tanzania</li>
+            <li><BsCheckCircle /> World class safari guides</li>
+            <li><BsCheckCircle /> Private safaris</li>
           </ul>
         </Carousel.Caption>
       </Carousel.Item>
@@ -38,9 +39,9 @@ function CarouselComponent() {
           <p>A Tanzania vacation is the ultimate once-in-a-lifetime holiday! Tanzania is a top safari destination and has so much to offer.</p>
           <button>Book a tour</button>
           <ul>
-            <li>100% specialized in Tanzania</li>
-            <li>World class safari guides</li>
-            <li>Private safaris</li>
+            <li><BsCheckCircle /> 100% specialized in Tanzania</li>
+            <li><BsCheckCircle /> World class safari guides</li>
+            <li><BsCheckCircle /> Private safaris</li>
           </ul>
         </Carousel.Caption>
       </Carousel.Item>
