@@ -1,4 +1,3 @@
-import lionImg from "../../images/pair-adult-lions 1.png"
 import "./Calculator.css"
 
 const Calculator = () => {
@@ -37,7 +36,6 @@ const Calculator = () => {
                     <span style={{ fontSize: "18px", fontStyle: "normal", fontWeight: "400", lineHeight: "106%"}}>Result: <span style={{fontWeight: "700"}}>2300</span></span>
                 </div>
             </div>
-            <img className="calculator-image" src={lionImg} alt="lions" />
         </div>
     )
 }

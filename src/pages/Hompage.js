@@ -1,15 +1,13 @@
 import Calculator from "../components/Calculator/Calculator"
 import CarouselComponent from "../components/Carousel/Carousel"
-import Footer from "../components/Footer/Footer"
-import NavBar from "../components/NavBar/NavBar"
+import lionsImg from "../images/pair-adult-lions 1.png"
 
 const HomePage = () => {
     return(
         <>
-            {/* <NavBar /> */}
             <CarouselComponent/> 
             <Calculator />
-            {/* <Footer /> */}
+            <img className="calculator-image" src={lionsImg} alt="lions" />
         </>
     )
 }

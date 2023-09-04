@@ -106,7 +106,7 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 20px;
-        margin-top: 230px;
+        margin-top: 23px;
         height: auto;
         column-gap: 0;
     }

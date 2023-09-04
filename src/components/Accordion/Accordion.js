@@ -4,7 +4,7 @@ import Accordion from 'react-bootstrap/Accordion';
 const AccordionComponent = () => {
     return(
         <div className="accordion-content">
-            <div className="accordion-header">
+            <div className="accordion-head">
                 <span>Interesting information</span>
                 <h2>Tips for the best experience of Tanzania</h2>
             </div>
