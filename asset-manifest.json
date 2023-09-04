@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Safari/static/css/main.e9170cce.css",
+    "main.css": "/Safari/static/css/main.825bfc9f.css",
     "main.js": "/Safari/static/js/main.30253dc1.js",
     "static/media/carousel-1.png": "/Safari/static/media/carousel-1.b55a765dc2c052e79d41.png",
     "static/media/carousel-2.png": "/Safari/static/media/carousel-2.5e4e56af6981b79e4965.png",
     "static/media/carousel-3.png": "/Safari/static/media/carousel-3.5846c36bec032033834b.png",
     "static/media/pair-adult-lions 1.png": "/Safari/static/media/pair-adult-lions 1.c6c3e07e62fd4732a83a.png",
     "index.html": "/Safari/index.html",
-    "main.e9170cce.css.map": "/Safari/static/css/main.e9170cce.css.map",
+    "main.825bfc9f.css.map": "/Safari/static/css/main.825bfc9f.css.map",
     "main.30253dc1.js.map": "/Safari/static/js/main.30253dc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9170cce.css",
+    "static/css/main.825bfc9f.css",
     "static/js/main.30253dc1.js"
   ]
 }
