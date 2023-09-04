@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Safari/static/css/main.b6619d83.css",
-    "main.js": "/Safari/static/js/main.5aa892a4.js",
+    "main.css": "/Safari/static/css/main.e151ef18.css",
+    "main.js": "/Safari/static/js/main.bf8c6561.js",
     "static/media/carousel-1.png": "/Safari/static/media/carousel-1.b55a765dc2c052e79d41.png",
     "static/media/carousel-2.png": "/Safari/static/media/carousel-2.5e4e56af6981b79e4965.png",
     "static/media/carousel-3.png": "/Safari/static/media/carousel-3.5846c36bec032033834b.png",
     "static/media/pair-adult-lions 1.png": "/Safari/static/media/pair-adult-lions 1.c6c3e07e62fd4732a83a.png",
     "index.html": "/Safari/index.html",
-    "main.b6619d83.css.map": "/Safari/static/css/main.b6619d83.css.map",
-    "main.5aa892a4.js.map": "/Safari/static/js/main.5aa892a4.js.map"
+    "main.e151ef18.css.map": "/Safari/static/css/main.e151ef18.css.map",
+    "main.bf8c6561.js.map": "/Safari/static/js/main.bf8c6561.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6619d83.css",
-    "static/js/main.5aa892a4.js"
+    "static/css/main.e151ef18.css",
+    "static/js/main.bf8c6561.js"
   ]
 }
