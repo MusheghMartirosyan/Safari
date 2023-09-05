@@ -60,6 +60,7 @@ nav {
     font-weight: 600;
     line-height: 136%;
     margin-left: 200px;
+    cursor: pointer;
 }
 
 .navbar button{

@@ -1,10 +1,11 @@
 import "./NavBar.css"
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 
 function Navbar() {
 	const navRef = useRef();
+    const navigate = useNavigate()
 
 	const showNavbar = () => {
 		navRef.current.classList.toggle(
@@ -15,7 +16,9 @@ function Navbar() {
 	return (
         <>
             <div className="navbar">
-                <h3>SAFARI</h3>
+                <h3 onClick={() => {
+                    navigate("")
+                }}>SAFARI</h3>
                 <nav ref={navRef}>
                     <a href="#home">Home</a>
                     <a href="#destinations">Top destinations</a>
@@ -34,8 +37,6 @@ function Navbar() {
                     <FaBars />
                 </button>
             </div>
-            
-            <Outlet />
         </>
 	);
 }

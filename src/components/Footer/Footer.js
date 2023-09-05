@@ -1,12 +1,14 @@
-import { Link, Outlet } from "react-router-dom"
+import { Link, Outlet, useNavigate } from "react-router-dom"
 import "./Footer.css"
 
 const Footer = () => {
+    const navigate = useNavigate()
+
     return(
         <>
         <footer>
             <div className="footer">
-                <h3 href="#home">SAFARI</h3>
+                <h3 onClick={() => navigate("")}>SAFARI</h3>
                 <div>
                     <h4>Top destinations</h4>
                     <ul>
@@ -55,7 +57,6 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
-        <Outlet />
         </>
     )
 }
